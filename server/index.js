@@ -18,7 +18,7 @@ app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
 app.get('/', (req, res) => {
-        res.send('Welcome to Memories API: Created by Aman Singh Bhogal');
+        res.send('Welcome to Memories API: Jonathan Idioseph');
 });
 
 // Connecting to MongoDB
